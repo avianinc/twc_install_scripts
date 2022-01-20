@@ -1,0 +1,30 @@
+SERVER this_host ANY
+VENDOR cameo licenses/cameo/cameo PORT=1101
+INCREMENT TeamworkCloudStandard cameo 19.0001 20-mar-2022 1 \
+	VENDOR_STRING=keyVersion=30|profile=731738|user=John\u0020DeHart|productType=Application|edition=Standard|version=Evaluation|licenseType=Floating|versionNumber=19.0|protected=706a547c9fca90c22c20503563b7e943f6d4a559711237e037e6402b0ec95aa6efc80bdcef79b6615d3d6b93bc74f74a430d7fe0e7e7733dcd4017c51ee74d7cf6064f70b461aa6e60b97b74676bcfeda3b53e550c84f75a16ad6836d4d4a8c367cdfdf7dceb86e22f0087f27999ada1a8d69c8e5dd49c7a7041d60335efb23aace64f9f6638f35c21ed47f7ffce8094666cb212a985837002759ae3bd53192683ebc04f0c2028f84ac3dc27675d74fd15481fa330229503458edb7119754491c985b20a53d2139b9591640ca5a28484c4128082d2112defaa1e2b7a2ef1c42fab1ad094daf6ccba6158a4d0b8f8c35bfe25ca8859e6850204be98c904ec2975|product=Teamwork\u0020Cloud|userLimit=10| \
+	SUPERSEDE="CameoConceptModeler CameoSystemsModelerEssential \
+	NIEM TeamworkCloudEnterprise CameoBusinessModeler \
+	TeamworkCloudBusiness Alf MagicRq CameoXSDImport \
+	CameoSystemsModelerArchitect CC4TWC100Connections \
+	CameoEnterpriseArchitectureRea TeamworkCloudBusinessPro \
+	LLEmbeddedEngineer DoDAF CameoBusinessModelerArchitect \
+	CameoSimulationToolkit CEDWBusiness BladeExtractor \
+	CEDWStandard CameoOCLTransformer MagicDrawEnterprise \
+	CEDWEnterprise TeamworkCloudStandard SysML ParaMagic \
+	CameoRequirementsPlus MagicDrawProfessionalCSharp \
+	MDZipXPublisher CameoSystemsModelerEnterprise ParaMagicLite \
+	CC4TWC25Connections MagicDrawProfessionalCPlusPlus \
+	MagicDrawProfessionalJava DDS CameoDataHub NomosXSDImport \
+	MagicDrawArchitect UPDM2 CameoE2EBuilderStandard \
+	NomosOCLExport MagicDrawStandard CC4TWCDemoConnections \
+	CoFluent BladeRiskManager CameoBusinessModelerAnalyst UPDM3 \
+	CameoEnterpriseArchitectureEnt MagicDrawReader \
+	CC4TWC50Connections CameoE2EBridge UAF UPDM \
+	CC4TWC75Connections CC4TWC5Connections CameoDataModeler \
+	CC4TWC10Connections CameoRequirementsModeler CameoMDC \
+	CC4TWC100PlusConnections CameoSOAPlus \
+	CameoSystemsModelerReader TeamcenterIntegration VOM Merge \
+	CameoInterOp CameoWorkbench" DUP_GROUP=NONE \
+	vendor_info="January 19, 2022" ISSUED=19-Jan-2022 BORROW=1440 \
+	TS_OK SIGN="01C0 A119 BE0C 1CFA 4696 52D0 DE73 195D EF0B 1AD7 \
+	9600 7A88 CDF1 7522 7361 D1E5 E867 3F4E EED6 CCD6 30EF"
