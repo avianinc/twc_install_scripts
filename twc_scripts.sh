@@ -21,12 +21,12 @@ echo "Get java jdk installation script"
 wget "https://docs.nomagic.com/download/attachments/42592673/install_java_202.sh?version=3&modificationDate=1605846992134&api=v2" -O install_java_202.sh
 echo
 # Install_flex_centos7.sh (not downloadable directly from nomagic???)
-# https://drive.google.com/file/d/1_4BC3LiM-7ZT-sVG3KJuz-IhkVeJ-LTs/view?usp=sharing
-# 1_4BC3LiM-7ZT-sVG3KJuz-IhkVeJ-LTs
+# https://drive.google.com/file/d/1YlDxP3EEc7nhXR53pLaIEvODcWk5hnvZ/view?usp=sharing
+# 1YlDxP3EEc7nhXR53pLaIEvODcWk5hnvZ
 # install_flex_centos7.sh
 echo
 echo "Get flex_centos7.sh installation scrip - not avalible from the download site!!!!"
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1_4BC3LiM-7ZT-sVG3KJuz-IhkVeJ-LTs' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1_4BC3LiM-7ZT-sVG3KJuz-IhkVeJ-LTs" -O install_flex_centos7.sh && rm -rf /tmp/cookies.txt
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1YlDxP3EEc7nhXR53pLaIEvODcWk5hnvZ' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1YlDxP3EEc7nhXR53pLaIEvODcWk5hnvZ" -O install_flex_centos7.sh && rm -rf /tmp/cookies.txt
 echo
 echo "Get Apache Cassandra installation script"
 # Install cassandra
