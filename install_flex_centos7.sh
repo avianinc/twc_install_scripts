@@ -2,6 +2,13 @@
 # Use these locations for actual wget
 # J.K. DeHart 1/21/22
 
+# Installs
+yum install firewalld
+sudo yum provides /lib/ld-lsb.so.3
+sudo yum install sudo yum install redhat-lsb-core
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/FNPLicenseServerManager
+
+
 #!/bin/bash
 echo "==============="
 echo "Installing wget"
@@ -24,23 +31,25 @@ echo "Getting Linux 32-bit IPv6 version 11.14 from AWS FrontCloud"
 echo "==========================================================="
 # wget http://d1g91r27pzl568.cloudfront.net/Cameo_daemon/FlexNet_11_14/ipv6/linux/lnx_32/cameo
 # wget https://d1g91r27pzl568.cloudfront.net/Cameo_daemon/FlexNet_11_14/ipv6/linux/lnx_32/cameo
-chmod +x cameo
+sudo chmod +x cameo
 echo "========================================"
 echo "Getting Linux 32-bit lmgrd version 11.14"
 echo "========================================"
 # wget https://d1oqhepk9od1tu.cloudfront.net/Flex_License_Server_Utilities/v11.14/linux32/lmgrd
 # wget https://d1oqhepk9od1tu.cloudfront.net/Flex_License_Server_Utilities/v11.14/linux32/lmgrd
-chmod +x lmgrd
+sudo chmod +x lmgrd
 echo "======================================"
 echo "Making flex log file named FlexLog.log"
 echo "======================================"
-touch FlexLog.log
-chmod 664 FlexLog.log
+sudo touch FlexLog.log
+sudo chmod 664 FlexLog.log
 echo "=========================================="
 echo "Getting Linux 32-bit lmadmin version 11.14"
 echo "=========================================="
-wget https://d1oqhepk9od1tu.cloudfront.net/Flex_License_Server_Utilities/v11.14/linux32/lmadmin-i86_lsb-11_14_0_0.bin
-chmod +x lmadmin-i86_lsb-11_14_0_0.bin
+# wget https://d1oqhepk9od1tu.cloudfront.net/Flex_License_Server_Utilities/v11.14/linux32/lmadmin-i86_lsb-11_14_0_0.bin
+wget https://d1oqhepk9od1tu.cloudfront.net/Flex_License_Server_Utilities/v11.12.1/lmadmin-i86_lsb-11_12_1_1.bin
+# chmod +x lmadmin-i86_lsb-11_14_0_0.bin
+sudo chmod +x lmadmin-i86_lsb-11_12_1_1.bin
 echo "========================================="
 echo "Executing lmadmin version 11.14 installer"
 echo "IMPORTANT: Install into directory /opt/local/FNPLicenseServerManager"

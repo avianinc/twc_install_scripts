@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<swid:software_identification_tag xmlns:swid="http://standards.iso.org/iso/19770/-2/2009/schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.iso.org/iso/19770/-2/2009/schema.xsd http://standards.iso.org/iso/19770/-2/2009/schema.xsd">
+
+
+  <!-- Elements required by the standard -->
+
+  <swid:entitlement_required_indicator id="entitlement_required_indicator">
+    false
+  </swid:entitlement_required_indicator>
+   
+  <swid:product_title id="product_title">
+    FlexNet Publisher License Server Manager - lmgrd
+  </swid:product_title>
+   
+  <swid:product_version>
+    <swid:name id="version_name">11.12.1.0</swid:name>
+     
+    <swid:numeric>
+      <swid:major id="version_major">11</swid:major>
+      <swid:minor id="version_minor">12</swid:minor>
+      <swid:build id="version_build">1</swid:build>
+      <swid:review id="version_review">0</swid:review>
+    </swid:numeric>
+  </swid:product_version>
+   
+  <swid:software_creator>
+    <swid:name id="creator_name">Flexera Software LLC</swid:name>
+    <swid:regid id="creator_regid">regid.2009-06.com.flexerasoftware</swid:regid>
+  </swid:software_creator>
+   
+  <swid:software_licensor>
+    <swid:name id="licensor_name">Flexera Software LLC</swid:name>
+    <swid:regid id="licensor_regid">regid.2009-06.com.flexerasoftware</swid:regid> 
+  </swid:software_licensor>
+   
+  <swid:software_id>
+    <swid:unique_id id="unique_id">
+      9d316e8a-f0bb-4343-863d-ce6332be0d3b
+    </swid:unique_id>
+    <swid:tag_creator_regid id="tag_creator_regid">
+      regid.2009-06.com.flexerasoftware
+    </swid:tag_creator_regid>
+  </swid:software_id>
+
+  <swid:tag_creator>
+    <swid:name id="tag_name">Flexera Software LLC</swid:name>
+    <swid:regid id="tag_regid">regid.2009-06.com.flexerasoftware</swid:regid>
+  </swid:tag_creator>
+
+
+  <!-- Elements not required by the standard, but required for Flexera products -->
+
+  <swid:product_id id="product_id">
+     Flexnet Publisher lmgrd
+  </swid:product_id>
+
+
+
+
+   
+
+
+  <!-- DIGITAL SIGNATURE WILL BE ADDED BELOW -->
+
+   
+
+
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#entitlement_required_indicator"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>9kWTq0QGDrfctElHjQ4SzNISSgk=</DigestValue></Reference><Reference URI="#product_title"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>TQ5zorMAet9S54UTu7DBkm+TTHw=</DigestValue></Reference><Reference URI="#version_name"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>5iH8LGjkR9mlu8PEkxMmM2Egos8=</DigestValue></Reference><Reference URI="#version_major"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>C7gHiy1PjTy/YIwzKwU1gDOqVpM=</DigestValue></Reference><Reference URI="#version_minor"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>wZRzG4eEvzKQv6ljtgYJJfhiG98=</DigestValue></Reference><Reference URI="#version_build"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>JaY/sfBfnFsob3gf1+4tvJX0hU4=</DigestValue></Reference><Reference URI="#version_review"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>qjjMM3kBETH12VgWH1iCU6RNxq4=</DigestValue></Reference><Reference URI="#creator_name"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>bmb+u0h1XpRJdIRuEFh1xb6WeMc=</DigestValue></Reference><Reference URI="#creator_regid"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>9k7ampDP/Q9b2ANS+h/TiG88Ruk=</DigestValue></Reference><Reference URI="#licensor_name"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Z6NiXCPbB7t9VuqcIeW0tjbJDn0=</DigestValue></Reference><Reference URI="#licensor_regid"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>MA0fcUIplq+r/yHa6C9tcNz2R5s=</DigestValue></Reference><Reference URI="#unique_id"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>y38NUebS/xq4/kmyPWHyLgKvMYM=</DigestValue></Reference><Reference URI="#tag_creator_regid"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>yw9VW/R+ZAlrM0QcfpkQ6BWfNgE=</DigestValue></Reference><Reference URI="#tag_name"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>NphMQiktN8WAxLAPkIUtV7zKxUQ=</DigestValue></Reference><Reference URI="#tag_regid"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>3qyIMKJtCREqsjYo6uJn2v8OWT8=</DigestValue></Reference><Reference URI="#product_id"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>RPXCkA4sTwFoZbngfMWUhiXXOuY=</DigestValue></Reference></SignedInfo><SignatureValue>iweP7wZYszm0uxnCtC31uO6e7wi89w84ePxOlnSXmxvMpuwWJU8y0UkA+KnuQbYn1nhwJ9KXPykFELj9gs/YfB6YYJWCuFIHaSoMN9FkdssbGNSeLWqNCjGZhZfkn9k4U7SczcBOwdmjYHybOWFcgXL23vUxzAmWoh1OZdzS6XgPWzpW2YFHs1Tptg2GvjHI+WfMUOlUHP/xYXQDZO6Si7CQy+KXQ3ZKimugOJPvqiOS7PafDkK1U+1RsE+Jol7XiYFW0X+F0dMBGI4SG0JnK6VzXLNUQpQ1Ac/yEK0nqMvcxnVUDSqMLp4fw4eU6QWIlheZ/uE6Jv49CRwCvl389A==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIFcDCCBFigAwIBAgIQH7HCR1/pCytvxt+EANvT0TANBgkqhkiG9w0BAQUFADCBtDELMAkGA1UEBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYDVQQLExZWZXJpU2lnbiBUcnVzdCBOZXR3b3JrMTswOQYDVQQLEzJUZXJtcyBvZiB1c2UgYXQgaHR0cHM6Ly93d3cudmVyaXNpZ24uY29tL3JwYSAoYykxMDEuMCwGA1UEAxMlVmVyaVNpZ24gQ2xhc3MgMyBDb2RlIFNpZ25pbmcgMjAxMCBDQTAeFw0xMTA5MzAwMDAwMDBaFw0xNDA5MjkyMzU5NTlaMIGzMQswCQYDVQQGEwJVUzERMA8GA1UECBMISWxsaW5vaXMxEzARBgNVBAcTClNjaGF1bWJ1cmcxHTAbBgNVBAoUFEZsZXhlcmEgU29mdHdhcmUgTExDMT4wPAYDVQQLEzVEaWdpdGFsIElEIENsYXNzIDMgLSBNaWNyb3NvZnQgU29mdHdhcmUgVmFsaWRhdGlvbiB2MjEdMBsGA1UEAxQURmxleGVyYSBTb2Z0d2FyZSBMTEMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCgI5rh8dbc3mbuTMjuS+QQE3PaeWGFlRieGSOReaJmRibtb7qHiJtT5V6k5KZwoMzxSrnsjj0ZBeBWzH/38DLOC8FIoiyH0O7xvSqapsff1/cWBevvKNIhOBnBDK2EVvf3Icz/4rhfdylHpwU5/Dsa2Wdafp9f8/OWQKTKDPg5obVzlwtdSuxB2O6hWzQHFg5XWmPtjwMuxdPApx0mfK1eiZ06AfmJL0iF9br0jXi3beQMWD3L1mcNx9Jawvi9ycN9vyzHbUIqFIFVg+s7x0YZ3YdBxpfOEJaaUC0f1CpdObsAlGZS6LAbuLmmktfAeizNHpefpzXqDGVbqyTSGxEpAgMBAAGjggF7MIIBdzAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIHgDBABgNVHR8EOTA3MDWgM6Axhi9odHRwOi8vY3NjMy0yMDEwLWNybC52ZXJpc2lnbi5jb20vQ1NDMy0yMDEwLmNybDBEBgNVHSAEPTA7MDkGC2CGSAGG+EUBBxcDMCowKAYIKwYBBQUHAgEWHGh0dHBzOi8vd3d3LnZlcmlzaWduLmNvbS9ycGEwEwYDVR0lBAwwCgYIKwYBBQUHAwMwcQYIKwYBBQUHAQEEZTBjMCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC52ZXJpc2lnbi5jb20wOwYIKwYBBQUHMAKGL2h0dHA6Ly9jc2MzLTIwMTAtYWlhLnZlcmlzaWduLmNvbS9DU0MzLTIwMTAuY2VyMB8GA1UdIwQYMBaAFM+Zqep7JvRLyY6P1/AFJu/j0qedMBEGCWCGSAGG+EIBAQQEAwIEEDAWBgorBgEEAYI3AgEbBAgwBgEBAAEB/zANBgkqhkiG9w0BAQUFAAOCAQEAjiFlrN+I2w2w4B3xcIScekHpP+ipFceMTh+XjDIsPSEHVUE+vOadTej8iTy4aHgsrodxUqcsiNwQ046TR54SSMOrTRH1v48HNGkl7N5JkRBFC8MD7IHy4M4FwbDupLgRoEMh3b0j0PZPQ2iTEqBEtNwxZnlNcCumSiLSnYgYZJ8ovsaUKToW9Wnzdr8WYTXKg4QlDdUqyrkySpPAXgF9GC9joP5gOrZra70/LgmmGUeDmTxS8afLC1JGw7TCSmkjT+PMg3USgcTofbnogLUJkedJIPPvsu/pO4UtSMROMo8WNDpFS7MbFW+kN8GRJ2CkSvMMHTCpAwvqyGVuoMjM+Q==</X509Certificate></X509Data></KeyInfo></Signature></swid:software_identification_tag>
+
