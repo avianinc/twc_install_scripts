@@ -6,7 +6,7 @@
 echo "==============="
 echo "Installing wget"
 echo "==============="
-sudo yum install -y wget
+sudo yum install -y wget unzip
 echo "=================="
 echo "Installing lmadmin"
 echo "=================="
@@ -23,13 +23,13 @@ echo "==========================================================="
 echo "Getting Linux 32-bit IPv6 version 11.14 from AWS FrontCloud"
 echo "==========================================================="
 # wget http://d1g91r27pzl568.cloudfront.net/Cameo_daemon/FlexNet_11_14/ipv6/linux/lnx_32/cameo
-wget https://d1g91r27pzl568.cloudfront.net/Cameo_daemon/FlexNet_11_14/ipv6/linux/lnx_32/cameo.zip
+# wget https://d1g91r27pzl568.cloudfront.net/Cameo_daemon/FlexNet_11_14/ipv6/linux/lnx_32/cameo
 chmod +x cameo
 echo "========================================"
 echo "Getting Linux 32-bit lmgrd version 11.14"
 echo "========================================"
 # wget https://d1oqhepk9od1tu.cloudfront.net/Flex_License_Server_Utilities/v11.14/linux32/lmgrd
-wget https://d1oqhepk9od1tu.cloudfront.net/Flex_License_Server_Utilities/v11.14/linux32/lmgrd.zip
+# wget https://d1oqhepk9od1tu.cloudfront.net/Flex_License_Server_Utilities/v11.14/linux32/lmgrd
 chmod +x lmgrd
 echo "======================================"
 echo "Making flex log file named FlexLog.log"
