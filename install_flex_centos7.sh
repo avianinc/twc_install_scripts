@@ -5,7 +5,7 @@
 # Installs
 yum install firewalld
 sudo yum provides /lib/ld-lsb.so.3
-sudo yum install sudo yum install redhat-lsb-core
+sudo yum install redhat-lsb-core
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/FNPLicenseServerManager
 
 
